@@ -1,0 +1,48 @@
+$hamburger-transition: $transition-fx;
+
+// Breakpoint to show hamburger
+@media (max-width: 928px) {
+  .hamburger {
+    display: inline;
+  }
+}
+
+.hamburger {
+  .hamburger-line--top {
+    width: 28px;
+  }
+
+  .hamburger-line--middle {
+    transition: $hamburger-transition;
+    width: 22px;
+  }
+
+  .hamburger-line--bottom {
+    transition: $hamburger-transition;
+    width: 15px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    .hamburger-line--middle {
+      width: 28px;
+    }
+    .hamburger-line--bottom {
+      width: 28px
+    }
+  }
+}
+
+.hamburger-lines-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 14px;
+  width: 28px;
+}
+
+.hamburger-line {
+  background: $color-magenta;
+  height: 2px;
+}

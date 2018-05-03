@@ -1,0 +1,131 @@
+$hero-shape-distance: 40px;
+$hero-shape-distance-mobile: 20px;
+$hero-shape-mobile-breakpoint: 540px;
+
+#hero {
+  margin-top: $nav-height;
+  width: 100%;
+  height: calc(100vh - 90px);
+}
+
+.hero--content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.hero--title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 2;
+  text-align: center;
+}
+
+.hero--names-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.hero--title-plus-sign {
+  color: $color-black;
+  font-family: $font-text;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1;
+  margin: 20px 20px 0 12px;
+  @media (max-width: 1200px) {
+    font-size: 40px;
+    margin: 12px 10px 0 6px;
+  }
+  @media (max-width: 900px) {
+    margin: 10px 10px 0 6px;
+  }
+  @media (max-width: 800px) {
+    margin: 8px 10px 0 6px;
+    font-size: 28px;
+    font-weight: 400;
+  }
+  @media (max-width: 700px) {
+    margin: 4px 10px 0 6px;
+  }
+  @media (max-width: 600px) {
+    margin: 4px 10px 0 6px;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+}
+
+.hero--subtitle {
+  color: $color-black;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2.4px;
+  margin-bottom: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  @media (max-width: 800px) {
+    font-size: 15px;
+  }
+}
+
+.hero--date {
+  @media (max-width: 800px) {
+    font-size: 40px;
+  }
+
+}
+
+// Shapes shapes
+.hero-shape-1 {
+  position: absolute;
+  left: $hero-shape-distance;
+  top: $hero-shape-distance;
+  @media (max-width: $hero-shape-mobile-breakpoint) {
+    left: $hero-shape-distance-mobile;
+    top: $hero-shape-distance-mobile;
+    width: 48px;
+    height: auto;
+  }
+}
+
+.hero-shape-2 {
+  position: absolute;
+  right: $hero-shape-distance;
+  top: $hero-shape-distance;
+  @media (max-width: $hero-shape-mobile-breakpoint) {
+    right: $hero-shape-distance-mobile;
+    top: $hero-shape-distance-mobile;
+    width: 48px;
+    height: auto;
+  }
+}
+
+.hero-shape-3 {
+  position: absolute;
+  left: $hero-shape-distance;
+  bottom: $hero-shape-distance;
+  @media (max-width: $hero-shape-mobile-breakpoint) {
+    left: $hero-shape-distance-mobile;
+    bottom: $hero-shape-distance-mobile;
+    width: 48px;
+    height: auto;
+  }
+}
+
+.hero-shape-4 {
+  position: absolute;
+  right: $hero-shape-distance;
+  bottom: $hero-shape-distance;
+  @media (max-width: $hero-shape-mobile-breakpoint) {
+    right: $hero-shape-distance-mobile;
+    bottom: $hero-shape-distance-mobile;
+    width: 48px;
+    height: auto;
+  }
+}

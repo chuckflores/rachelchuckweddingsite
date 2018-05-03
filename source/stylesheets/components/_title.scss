@@ -1,0 +1,28 @@
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 96px;
+}
+
+.title {
+  color: $color-black;
+  font-family: $font-display;
+  font-size: 60px;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+  width: 100%;
+
+  @media (max-width: 574px) {
+    font-size: 40px
+  }
+
+  @media (max-width: 424px) {
+    font-size: 32px
+  }
+}
+
+.title-subheader {
+
+}

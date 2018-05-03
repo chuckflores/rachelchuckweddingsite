@@ -1,0 +1,116 @@
+#registry {
+  position: relative;
+  width: 100%;
+}
+
+.registry--wrapper-container {
+  position: relative;
+  width: 100%;
+}
+
+.registry--content-container {
+  padding: 140px 0;
+  width: 100%;
+  @media (max-width: $breakpoint-mobile) {
+    padding: 40px;
+  }
+}
+
+.zola-registry-embed {
+  z-index: 100;
+}
+
+
+// Shapes shapes
+$registry-tablet-landscape-offset: 200px;
+
+
+.registry-shape-1 {
+  position: absolute;
+  left: 6%;
+  margin-top: 550px;
+  z-index: 10;
+  @media (max-width: $breakpoint-tablet-landscape) {
+    margin-top: calc(550px + 200px);
+  }
+  @media (max-width: $breakpoint-tablet-portrait) {
+    margin-top: calc(550px + 200px + 200px);
+  }
+  @media (max-width: $breakpoint-small) {
+    margin-top: calc(550px + 200px + 200px + 200px);
+  }
+  @media (max-width: $breakpoint-mobile) {
+    display: none;
+  }
+}
+
+.registry-shape-2 {
+  position: absolute;
+  left: 24%;
+  margin-top: 650px;
+  z-index: 2;
+  @media (max-width: $breakpoint-tablet-landscape) {
+    margin-top: calc(650px + 200px);
+  }
+  @media (max-width: $breakpoint-tablet-portrait) {
+    margin-top: calc(650px + 200px + 200px);
+  }
+  @media (max-width: $breakpoint-small) {
+    margin-top: calc(650px + 200px + 200px + 200px);
+  }
+  @media (max-width: $breakpoint-mobile) {
+    display: none;
+  }
+}
+
+.registry-shape-3 {
+  position: absolute;
+  left: 21%;
+  margin-top: 770px;
+  z-index: 2;
+  @media (max-width: $breakpoint-tablet-landscape) {
+    margin-top: calc(770px + 200px);
+  }
+  @media (max-width: $breakpoint-tablet-portrait) {
+    margin-top: calc(770px + 200px + 200px);
+  }
+  @media (max-width: $breakpoint-small) {
+    margin-top: calc(770px + 200px + 200px + 200px);
+  }
+  @media (max-width: $breakpoint-mobile) {
+    display: none;
+  }
+}
+
+.registry-shape-4 {
+  position: absolute;
+  left: 33%;
+  margin-top: 660px;
+  z-index: 2;
+  @media (max-width: $breakpoint-tablet-landscape) {
+    margin-top: calc(660px + 200px);
+  }
+  @media (max-width: $breakpoint-tablet-portrait) {
+    margin-top: calc(660px + 200px + 200px);
+  }
+  @media (max-width: $breakpoint-small) {
+    margin-top: calc(660px + 200px + 200px + 200px);
+  }
+  @media (max-width: $breakpoint-mobile) {
+    display: none;
+  }
+}
+
+.registry-shape-5 {
+  position: absolute;
+  right: 5%;
+  margin-top: 2220px;
+  z-index: -10;
+}
+
+.registry-shape-6 {
+  position: absolute;
+  right: 7%;
+  margin-top: 2240px;
+  z-index: -10;
+}

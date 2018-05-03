@@ -1,0 +1,32 @@
+.hero-section {
+  margin: 72px 0;
+  padding: 72px 24px;
+}
+
+.logo {
+  width: 100%;
+}
+
+.registry {
+  a {
+    font-family: $font-text;
+    font-weight: 800;
+  }
+}
+
+.under-construction {
+  // background: #E9E9EE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 72px 24px;
+}
+
+.header-construction {
+  margin-bottom: 16px;
+}
+
+.construction-img {
+  margin-bottom: 32px;
+  width: 100px;
+}

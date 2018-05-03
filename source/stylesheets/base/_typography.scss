@@ -1,0 +1,103 @@
+html body {
+  color: $color-black;
+  font-family: $font-text;
+  font-size: 1em;
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.4;
+  letter-spacing: -0.4px;
+  margin: 0 0 17px; // Bottom Paragraph Spacing
+}
+
+.title-1 {
+  font-family: $font-display;
+  font-size: 100px;
+  color: $color-black;
+  letter-spacing: -0.3px;
+  z-index: 10;
+}
+
+.title-1__large {
+  font-size: 100px;
+  @media (max-width: 1200px) {
+    font-size: 100px;
+  }
+  @media (max-width: 980px) {
+    font-size: 80px;
+  }
+  @media (max-width: 800px) {
+    font-size: 70px;
+  }
+  @media (max-width: 700px) {
+    font-size: 60px;
+  }
+  @media (max-width: 600px) {
+    font-size: 50px;
+  }
+  @media (max-width: 500px) {
+    font-size: 40px;
+  }
+}
+
+.title-2 {
+  color: $color-black;
+  font-family: $font-display;
+  font-size: 72px;
+  letter-spacing: -0.2px;
+  line-height: 1;
+  z-index: 10;
+
+  @media (max-width: 600px) {
+    font-size: 52px;
+  }
+}
+
+.title-3 {
+  color: $color-black;
+  font-family: $font-display;
+  font-size: 46px;
+  letter-spacing: -0.2px;
+  line-height: 1;
+  z-index: 10;
+}
+
+.title-4 {
+  color: $color-black;
+  font-family: $font-display;
+  font-size: 30px;
+  letter-spacing: -0.2px;
+  line-height: 1;
+  z-index: 10;
+}
+
+.title-subheader {
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+$link-color: darken($color-cyan, 10%);
+
+a {
+  color: $link-color;
+  transition: $transition-fx;
+
+  &:visited {
+    color: $link-color;
+  }
+
+  &:hover {
+    color: lighten($link-color, 20%);
+  }
+}

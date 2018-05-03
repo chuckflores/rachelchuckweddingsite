@@ -1,0 +1,225 @@
+#details {
+  background: #FFF;
+  width: 100%;
+  position: relative;
+}
+
+.details--wrapper-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.details--content-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 280px 20px 220px;
+  position: relative;
+  @media (max-width: $breakpoint-mobile) {
+    padding-bottom: 40px;
+  }
+}
+
+.details--title {
+  text-align: center;
+}
+
+.details--date-container {
+  align-content: space-between;
+  display: flex;
+  flex-direction: column;
+  margin-top: 130px;
+}
+
+.details--label_date-time {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.4px;
+  line-height: 17px;
+  margin-bottom: 19px;
+  text-transform: uppercase;
+}
+
+.details--label {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1;
+  margin: 30px 0 10px;
+}
+
+.details--date-time {
+  text-align: right;
+}
+
+.details--location-container {
+  display: flex;
+  margin-top: 200px;
+  @media (max-width: 600px) {
+    flex-direction: column;
+    margin-top: 80px;
+    width: 100%;
+  }
+}
+
+.details--parking-rate {
+  font-weight: 600;
+}
+
+.details--venue-transportation-container {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 40px;
+  text-align: left;
+  @media (max-width: 500px) {
+    background: transparentize(#FFF, 0.2);
+    margin-bottom: 40px;
+  }
+}
+
+.details--transportation-img--container {
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+}
+
+.details--transportation-img-1 {
+  margin-right: 24px;
+  margin-top: 10px;
+  max-height: 30px;
+}
+
+.details--transportation-img-2 {
+  margin-top: 10px;
+  max-height: 22px;
+}
+
+.details--venue-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.details--venue-name {
+  font-weight: 700;
+}
+
+.details--transportation-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.details--subway-link:visited {
+  color: $color-black;
+}
+
+.details--subway-link:hover {
+  .details--subway-text {
+    opacity: 1;
+  }
+}
+
+.details--subway-text {
+  opacity: .5;
+  transition: $transition-fx;
+  text-decoration: underline;
+}
+
+.details--subway-icon {
+  margin-top: 8px;
+}
+
+.details--map-container {
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  width: 500px;
+  @media (max-width: 900px) {
+    height: 400px;
+    width: 400px;
+  }
+  @media (max-width: 500px) {
+    height: 300px;
+    width: 100%;
+  }
+}
+
+.details--map-container iframe {
+  border: 8px solid #FFF;
+  left: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+// Shapes shapes
+.details--shape-1 {
+  left: 13%;
+  margin-top: 180px;
+  position: absolute;
+  @media (max-width: $breakpoint-mobile) {
+    margin-top: 400px;
+  }
+}
+
+.details--shape-2 {
+  left: 30%;
+  margin-top: 350px;
+  position: absolute;
+}
+
+.details--shape-3 {
+  right: 31%;
+  margin-top: 460px;
+  position: absolute;
+}
+
+.details--shape-4 {
+  right: 20%;
+  margin-top: 540px;
+  position: absolute;
+}
+
+.details--shape-5 {
+  left: 35%;
+  margin-top: 600px;
+  position: absolute;
+}
+
+.details--shape-6 {
+  margin-top: 700px;
+  right: 23%;
+  position: absolute;
+  @media (max-width: 900px) {
+    left: 15%;
+  }
+  @media (max-width: 400px) {
+    width: 50%;
+  }
+}
+
+.details--shape-7 {
+  left: 35%;
+  margin-top: 1100px;
+  position: absolute;
+  @media (max-width: 900px) {
+    left: 15%;
+    width: 50%
+  }
+  @media (max-width: 400px) {
+    display: none;
+  }
+}
+
+.details--shape-8 {
+  right: 40px;
+  margin-top: 1400px;
+  position: absolute;
+}

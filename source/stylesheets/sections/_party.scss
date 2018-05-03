@@ -1,0 +1,159 @@
+$party-img-size-medium: 180px;
+$party-img-size-mobile: 220px;
+
+#party {
+  background: #FFFFFF;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 148px;
+  margin-top: 80px;
+  @media (max-width: $breakpoint-mobile) {
+    margin-bottom: 40px;
+  }
+}
+
+.party--wrapper-container {
+  position: relative;
+  width: 100%;
+}
+
+.party--content-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.party--title {
+  font-family: $font-display;
+  font-size: 33px;
+  font-weight: normal;
+  letter-spacing: -0.14px;
+  margin-bottom: 40px;
+}
+
+.party--title__bride {
+  color: $color-magenta;
+
+}
+
+.party--title__groom {
+  color: $color-cyan;
+}
+
+#party--bridemaids-section {
+  margin-top: 70px;
+  max-width: 1200px;
+}
+
+#party--groomsmen-section {
+  margin-top: 100px;
+  max-width: 900px;
+}
+
+#party--officant-section {
+  margin-top: 120px
+}
+
+.party--people-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.party--people-item {
+  display: flex;
+  flex-direction: column;
+  max-width: $party-img-size-medium;
+  margin: 20px 52px;
+  @media (max-width: $breakpoint-mobile) {
+    max-width: $party-img-size-mobile;
+  }
+}
+
+.party--people-name {
+  text-align: right;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.party--people-name__groom {
+  text-align: left;
+}
+
+.party--people-image {
+  max-width: $party-img-size-medium;
+  @media (max-width: $breakpoint-mobile) {
+    max-width: $party-img-size-mobile;
+  }
+}
+
+.party--people-description {
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  line-height: 1.5;
+  margin-top: 10px;
+  text-align: left;
+  width: 100%;
+}
+
+.party--people-description__groom {
+  text-align: left;
+}
+
+.party--people-description__officant {
+  max-width: 320px;
+  text-align: center;
+}
+
+.party--officant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.party--officant-name {
+  text-align: center;
+  margin-bottom: 10px
+}
+
+.party--officant-image {
+  max-width: 320px;
+}
+
+
+
+// Shapes Shapes
+
+.party-shape-1 {
+  position: absolute;
+  right: 40px;
+  margin-top: 1200px;
+}
+
+.party-shape-2 {
+  position: absolute;
+  left: 12%;
+  margin-top: 1540px;
+}
+
+.party-shape-3 {
+  position: absolute;
+  left: 8%;
+  margin-top: 2050px;
+}
+
+.party-shape-4 {
+  position: absolute;
+  right: 4%;
+  margin-top: 1800px;
+}
+
+.party-shape-5 {
+  position: absolute;
+  right: 7%;
+  margin-top: 2500px;
+}

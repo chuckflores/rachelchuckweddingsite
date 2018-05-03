@@ -1,0 +1,49 @@
+<div class="header">
+  <div class="header-content">
+    <div class="header-logo">
+      <a href="#hero"><img src="./images/logo2.svg" alt=""></a>
+    </div>
+    <!-- desktop nav -->
+    <nav class="nav">
+      <ul>
+        <li><a href="#story" class="nav--desktop-link">Story</a></li>
+        <li><a href="#details" class="nav--desktop-link">Details</a></li>
+        <li><a href="#party" class="nav--desktop-link">Wedding Party</a></li>
+        <li><a href="#accommodations" class="nav--desktop-link">Accommodations</a></li>
+        <li><a href="#registry" class="nav--desktop-link">Registry</a></li>
+      </ul>
+    </nav>
+    <!-- hamburger icon -->
+    <div class="hamburger" onclick="openNav()">
+      <div class="hamburger-lines-container">
+        <div class="hamburger-line hamburger-line--top"></div>
+        <div class="hamburger-line hamburger-line--middle"></div>
+        <div class="hamburger-line hamburger-line--bottom"></div>
+      </div>
+    </div>
+    <!-- overlay menu -->
+    <div class="overlay" id="myNav">
+      <div class="overlay-container">
+        <div class="overlay-header">
+          <div class="header-logo">
+            <a href="#hero"><img src="./images/logo2.svg" alt=""></a>
+          </div>
+          <div class="close" onClick="closeNav()"></div>
+        </div>
+        <div class="overlay-links">
+          <ul>
+            <li>
+                <a href="#story" onClick="closeNav()" class="nav-mobile-links">Story</a>
+
+            </li>
+            <li><a href="#details" onClick="closeNav()" class="nav-mobile-links">Details</a></li>
+            <li><a href="#party" onClick="closeNav()" class="nav-mobile-links">Wedding Party</a></li>
+            <li><a href="#accommodations" onClick="closeNav()" class="nav-mobile-links">Accommodations</a></li>
+            <li><a href="#registry" onClick="closeNav()" class="nav-mobile-links">Registry</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,136 @@
+#footer {
+  background: #FAFBFC;
+  position: relative;
+  width: 100%;
+}
+
+.footer--wrapper-container {
+  position: relative;
+  width: 100%;
+}
+
+.footer--content-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 280px 20px;
+  position: relative;
+  width: 100%;
+  @media (max-width: $breakpoint-mobile) {
+    padding: 90px 20px;
+  }
+}
+
+.footer--message {
+  font-size: 33px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  line-height: 47px;
+  @media (max-width: $breakpoint-mobile) {
+    font-size: 28px;
+  }
+}
+
+.footer--date {
+  font-size: 60px;
+}
+
+
+// Shapes shapes
+
+.footer-gilda-1 {
+  position: absolute;
+  right: 25%;
+  width: 60px;
+  margin-top: 1200px;
+  transform: rotateZ(30deg);
+  @media (max-width: 700px) {
+    margin-top: 1600px;
+  }
+  @media (max-width: 500px) {
+    margin-top: 2000px;
+  }
+  @media (max-width: $breakpoint-mobile) {
+    margin-top: 2200px;
+  }
+}
+
+.footer-shape-1 {
+  position: absolute;
+  right: 24px;
+  margin-top: -700px;
+  @media (max-width: 900px) {
+    opacity: 0.3;
+  }
+  @media (max-width: $breakpoint-mobile) {
+    margin-top: -2000px;
+    width: 25%;
+    opacity: 0.8;
+  }
+}
+
+.footer-shape-2 {
+  position: absolute;
+  left: 16%;
+  margin-top: -700px;
+  @media (max-width: 900px) {
+    opacity: 0.3;
+  }
+  @media (max-width: $breakpoint-mobile) {
+    margin-top: -1900px;
+    width: 50%;
+  }
+}
+
+.footer-shape-3 {
+  position: absolute;
+  left: 34%;
+  margin-top: 1150px;
+  @media (max-width: 900px) {
+    opacity: 0.3;
+  }
+  @media (max-width: $breakpoint-mobile) {
+    display: none;
+  }
+}
+
+.footer-shape-4 {
+  position: absolute;
+  right: 35%;
+  margin-top: 1340px;
+  @media (max-width: 900px) {
+    opacity: 0.3;
+  }
+  @media (max-width: $breakpoint-mobile) {
+    display: none;
+  }
+}
+
+.footer-shape-5 {
+  position: absolute;
+  right: 18%;
+  margin-top: 1200px;
+  @media (max-width: 900px) {
+    opacity: 0.3;
+  }
+  @media (max-width: $breakpoint-mobile) {
+    display: none;
+  }
+}
+
+.footer-shape-6 {
+  position: absolute;
+  left: 40px;
+  margin-top: 1220px;
+  @media (max-width: 900px) {
+    opacity: 0.7;
+  }
+  @media (max-width: $breakpoint-mobile) {
+    display: none;
+    left: 20px;
+    margin-top: 1880px;
+    opacity: 0.2;
+    width: 50%;
+  }
+}

@@ -1,0 +1,191 @@
+// Kanji
+@font-face {
+    font-family: 'kanji';
+    src: url('../fonts/kanji/kanji_pa-webfont.woff2') format('woff2'),
+         url('../fonts/kanji/kanji_pa-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+ // Neue Hans Kendrick
+ @font-face {
+     font-family: 'neue_hans_kendrick';
+     src: url('../fonts/kendrick/neuehanskendrick-heavy-webfont.woff2') format('woff2'),
+          url('../fonts/kendrick/neuehanskendrick-heavy-webfont.woff') format('woff');
+     font-weight: 900;
+     font-style: normal;
+ }
+
+ @font-face {
+     font-family: 'neue_hans_kendrick';
+     src: url('../fonts/kendrick/neuehanskendrick-bold-webfont.woff2') format('woff2'),
+          url('../fonts/kendrick/neuehanskendrick-bold-webfont.woff') format('woff');
+     font-weight: 700;
+     font-style: normal;
+ }
+
+ @font-face {
+     font-family: 'neue_hans_kendrick';
+     src: url('../fonts/kendrick/neuehanskendrick-extrabold-webfont.woff2') format('woff2'),
+          url('../fonts/kendrick/neuehanskendrick-extrabold-webfont.woff') format('woff');
+     font-weight: 800;
+     font-style: normal;
+ }
+
+ @font-face {
+     font-family: 'neue_hans_kendrick';
+     src: url('../fonts/kendrick/neuehanskendrick-medium-webfont.woff2') format('woff2'),
+          url('../fonts/kendrick/neuehanskendrick-medium-webfont.woff') format('woff');
+     font-weight: 500;
+     font-style: normal;
+ }
+
+ @font-face {
+     font-family: 'neue_hans_kendrick';
+     src: url('../fonts/kendrick/neuehanskendrick-semibold-webfont.woff2') format('woff2'),
+          url('../fonts/kendrick/neuehanskendrick-semibold-webfont.woff') format('woff');
+     font-weight: 600;
+     font-style: normal;
+ }
+
+ @font-face {
+     font-family: 'neue_hans_kendrick';
+     src: url('../fonts/kendrick/neuehanskendrick-extralight-webfont.woff2') format('woff2'),
+          url('../fonts/kendrick/neuehanskendrick-extralight-webfont.woff') format('woff');
+     font-weight: 200;
+     font-style: normal;
+ }
+
+ @font-face {
+     font-family: 'neue_hans_kendrick';
+     src: url('../fonts/kendrick/neuehanskendrick-light-webfont.woff2') format('woff2'),
+          url('../fonts/kendrick/neuehanskendrick-light-webfont.woff') format('woff');
+     font-weight: 300;
+     font-style: normal;
+ }
+
+ @font-face {
+     font-family: 'neue_hans_kendrick';
+     src: url('../fonts/kendrick/neuehanskendrick-regular-webfont.woff2') format('woff2'),
+          url('../fonts/kendrick/neuehanskendrick-regular-webfont.woff') format('woff');
+     font-weight: 400;
+     font-style: normal;
+ }
+
+ @font-face {
+     font-family: 'neue_hans_kendrick';
+     src: url('../fonts/kendrick/neuehanskendrick-thin-webfont.woff2') format('woff2'),
+          url('../fonts/kendrick/neuehanskendrick-thin-webfont.woff') format('woff');
+     font-weight: 100;
+     font-style: normal;
+ }
+
+// HK Explorer
+@font-face {
+    font-family: 'explorer';
+    src: url('../fonts/explorer/hkexplorer-black-webfont.woff2') format('woff2'),
+         url('../fonts/explorer/hkexplorer-black-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'explorer';
+    src: url('../fonts/explorer/hkexplorer-blackitalic-webfont.woff2') format('woff2'),
+         url('../fonts/explorer/hkexplorer-blackitalic-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'explorer';
+    src: url('../fonts/explorer/hkexplorer-bold-webfont.woff2') format('woff2'),
+         url('../fonts/explorer/hkexplorer-bold-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'explorer';
+    src: url('../fonts/explorer/hkexplorer-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/explorer/hkexplorer-bolditalic-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'explorer';
+    src: url('../fonts/explorer/hkexplorer-italic-webfont.woff2') format('woff2'),
+         url('../fonts/explorer/hkexplorer-italic-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'explorer';
+    src: url('../fonts/explorer/hkexplorer-light-webfont.woff2') format('woff2'),
+         url('../fonts/explorer/hkexplorer-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'explorer';
+    src: url('../fonts/explorer/hkexplorer-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/explorer/hkexplorer-lightitalic-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'explorer';
+    src: url('../fonts/explorer/hkexplorer-medium-webfont.woff2') format('woff2'),
+         url('../fonts/explorer/hkexplorer-medium-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'explorer';
+    src: url('../fonts/explorer/hkexplorer-mediumitalic-webfont.woff2') format('woff2'),
+         url('../fonts/explorer/hkexplorer-mediumitalic-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'explorer';
+    src: url('../fonts/explorer/hkexplorer-regular-webfont.woff2') format('woff2'),
+         url('../fonts/explorer/hkexplorer-regular-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'explorer';
+    src: url('../fonts/explorer/hkexplorer-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/explorer/hkexplorer-semibold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'explorer';
+    src: url('../fonts/explorer/hkexplorer-semibolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/explorer/hkexplorer-semibolditalic-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+
+}
