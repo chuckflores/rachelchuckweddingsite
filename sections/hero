@@ -1,0 +1,37 @@
+<section id="hero">
+  <div class="hero--content-container">
+    <img src="./images/shapes/triangles/corner-triangle-dots-pink-small-1.svg" alt="" class="hero-shape-1 rellax" data-rellax-speed="-2">
+    <img src="./images/shapes/triangles/corner-triangle-lines-cyan-small-2.svg" alt="" class="hero-shape-2 rellax" data-rellax-speed="-3">
+    <img src="./images/shapes/triangles/corner-triangle-lines-cyan-small-1.svg" alt="" class="hero-shape-3 rellax" data-rellax-speed="2">
+    <img src="./images/shapes/triangles/corner-triangle-dots-pink-small-2.svg" alt="" class="hero-shape-4 rellax" data-rellax-speed="4">
+    <div class="hero--title-container">
+      <div class="hero--names-container" data-rellax-horizontal="true">
+        <div class="title-1 title-1__large">
+          RACHEL
+        </div>
+        <div class="hero--title-plus-sign">
+          +
+        </div>
+        <div class="title-1 title-1__large">
+          CHUCK
+        </div>
+      </div>
+      <div class="hero--subtitle">
+        Are Getting Married
+      </div>
+      <div class="hero--date title-2">
+        06.17.2018
+      </div>
+    </div>
+    <div class="scroll-icon-container">
+      <div class="scroll-icon">
+        <div class="scroll-wheel">
+        </div>
+      </div>
+      <div class="scroll-text">
+        Scroll
+      </div>
+    </div>
+
+  </div>
+</section>

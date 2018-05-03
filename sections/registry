@@ -1,0 +1,17 @@
+<section id="registry">
+  <div class="registry--wrapper-container">
+    <img src="./images/shapes/registry/registry-lines-teal-1.svg" alt="" class="registry-shape-1 rellax" data-rellax-speed="1">
+    <img src="./images/shapes/registry/registry-ring-navy-1.svg" alt="" class="registry-shape-2 rellax" data-rellax-speed="1">
+    <img src="./images/shapes/registry/registry-ring-sea-1.svg" alt="" class="registry-shape-3 rellax" data-rellax-speed="1">
+    <img src="./images/shapes/registry/registry-lines-blue-1.svg" alt="" class="registry-shape-4 rellax" data-rellax-speed="1">
+    <img src="./images/shapes/registry/registry-ring-gray-1.svg" alt="" class="registry-shape-5 rellax" data-rellax-speed="1">
+    <img src="./images/shapes/registry/registry-ring-navy-2.svg" alt="" class="registry-shape-6 rellax" data-rellax-speed="1">
+
+
+    <div class="registry--content-container">
+
+      <a class="zola-registry-embed" href="https://www.zola.com/registry/chuckrachel" data-registry-key="chuckrachel">Our Zola Wedding Registry</a><script>!function(e,t,n){var s,a=e.getElementsByTagName(t)[0];e.getElementById(n)||(s=e.createElement(t),s.id=n,s.async=!0,s.src="https://widget.zola.com/js/widget.js",a.parentNode.insertBefore(s,a))}(document,"script","zola-wjs");</script>
+
+    </div>
+  </div>
+</section>

@@ -1,0 +1,122 @@
+<section id="party">
+  <div class="party--wrapper-container">
+    <img src="./images/shapes/party/party-purple-lines-1.svg" alt="" class="party-shape-1 rellax" data-rellax-speed="1">
+    <img src="./images/shapes/party/party-ring-group-1.svg" alt="" class="party-shape-2 rellax" data-rellax-speed="1">
+    <img src="./images/shapes/party/party-lines-cyan-1.svg" alt="" class="party-shape-3 rellax" data-rellax-speed="2">
+    <img src="./images/shapes/party/party-ring-group-2.svg" alt="" class="party-shape-4 rellax" data-rellax-speed="1">
+    <img src="./images/shapes/party/party-lines-cyan-2.svg" alt="" class="party-shape-5 rellax" data-rellax-speed="1">
+
+    <div class="party--content-container">
+
+      <div class="title-3">
+        Wedding Party
+      </div>
+
+      <div id="party--bridemaids-section">
+        <h3 class="party--title party--title__bride">Bridesmaids</h3>
+        <div class="party--people-container">
+
+          <div class="party--people-item">
+            <h4 class="party--people-name">Laura Irwin</h4>
+            <img src="./images/party/party-bridesmaid-laura@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description">Maid of Honor. UMass Roommates. Watched SATC and Love & Basketball obsessively.</p>
+          </div>
+
+          <div class="party--people-item">
+            <h4 class="party--people-name">Jamie Hogan</h4>
+            <img src="./images/party/party-bridesmaid-jamie@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description">Maid Of Honor. UMass. Brooklyn Roommates & Wingmen. Cat Lovers.</p>
+          </div>
+
+          <div class="party--people-item">
+            <h4 class="party--people-name">Stephanie Brown</h4>
+            <img src="./images/party/party-bridesmaid-stephanie@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description">Friends from big wheels to driver licenses to marriage licenses. Trampoline champs.</p>
+          </div>
+
+          <div class="party--people-item">
+            <h4 class="party--people-name">Hajar Yazdiha Ferrell</h4>
+            <img src="./images/party/party-bridesmaid-haj@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description">Survived high school & living in NYC together. Fights over deviled eggs. Parrrttttyyy Time!</p>
+          </div>
+
+          <div class="party--people-item">
+            <h4 class="party--people-name">Joy Stroud</h4>
+            <img src="./images/party/party-bridesmaid-joy@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description">Friends since we rolled in moving boxes. Still representing Notorious in NY.</p>
+          </div>
+
+          <div class="party--people-item">
+            <h4 class="party--people-name">Kristin Resurreccion</h4>
+            <img src="./images/party/party-bridesmaid-kristin@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description">Sisters-in-Law for a decade. Crafts. Playing board games & drinking cocktails.</p>
+          </div>
+
+          <div class="party--people-item">
+            <h4 class="party--people-name">Elena Flores</h4>
+            <img src="./images/party/party-bridesmaid-elena@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description">New Sisters-in-Law. Christmas & NYC audition trips. Best (or maybe worst) brownie baker.</p>
+          </div>
+
+          <div class="party--people-item">
+            <h4 class="party--people-name">Ann Nguyen</h4>
+            <img src="./images/party/party-bridesmaid-ann@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description">In loving memory of UMass roommates. Spring breaking in Cali. Endless political debates. Sheep herding in Scotland.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div id="party--officant-section">
+        <h3 class="party--title">Officiant</h3>
+        <div class="party--officant">
+          <h4 class="party--officant-name">Quincy Marr</h4>
+          <img src="./images/party/party-officiant-quincy@2x.png" class="party--officant-image" alt="">
+          <p class="party--people-description party--people-description__officant">Rachel’s work soul mate. <br />
+            Chuck’s debate partner on ridiculous topics. <br />
+            Disney Dinners & Vail Hikes.</p>
+        </div>
+      </div>
+
+      <div id="party--groomsmen-section">
+        <h3 class="party--title party--title__groom">Groomsmen</h3>
+        <div class="party--people-container">
+
+          <div class="party--people-item">
+            <h4 class="party--people-name party--people-name__groom">Jamey Flores</h4>
+            <img src="./images/party/party-groomsmen-jamey@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description party--people-description__groom">Best man. Brother of groom. Birthday baseball outings. Random childhood games.</p>
+          </div>
+
+          <div class="party--people-item">
+            <h4 class="party--people-name party--people-name__groom">Josh Bousel</h4>
+            <img src="./images/party/party-groomsmen-josh@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description party--people-description__groom">Brother of Bride. Ticket to Ride. Numbing Szechuan peppercorn bbq wings.</p>
+          </div>
+
+          <div class="party--people-item">
+            <h4 class="party--people-name party--people-name__groom">Tyson Gach</h4>
+            <img src="./images/party/party-groomsmen-tyson@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description party--people-description__groom">Biking to tampa. Driving the ring road Iceland. Tasty cocktails.</p>
+          </div>
+
+          <div class="party--people-item">
+            <h4 class="party--people-name party--people-name__groom">Davey Partain</h4>
+            <img src="./images/party/party-groomsmen-davey@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description party--people-description__groom">Ghostland Observatory show. Making music as ÆON RINGS. Craft beer.</p>
+          </div>
+
+          <div class="party--people-item">
+            <h4 class="party--people-name party--people-name__groom">Khalil Al-Arefi</h4>
+            <img src="./images/party/party-groomsmen-khalil@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description party--people-description__groom">Snorkeling in the Virgin Islands. Nagoya Sushi. College dance parties.</p>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+</section>

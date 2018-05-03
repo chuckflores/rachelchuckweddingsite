@@ -1,0 +1,86 @@
+html body {
+  color: #19191A;
+  font-family: "neue_hans_kendrick";
+  font-size: 1em; }
+
+p {
+  font-size: 17px;
+  line-height: 1.4;
+  letter-spacing: -0.4px;
+  margin: 0 0 17px; }
+
+.title-1 {
+  font-family: "kanji";
+  font-size: 100px;
+  color: #19191A;
+  letter-spacing: -0.3px;
+  z-index: 10; }
+
+.title-1__large {
+  font-size: 100px; }
+  @media (max-width: 1200px) {
+    .title-1__large {
+      font-size: 100px; } }
+  @media (max-width: 980px) {
+    .title-1__large {
+      font-size: 80px; } }
+  @media (max-width: 800px) {
+    .title-1__large {
+      font-size: 70px; } }
+  @media (max-width: 700px) {
+    .title-1__large {
+      font-size: 60px; } }
+  @media (max-width: 600px) {
+    .title-1__large {
+      font-size: 50px; } }
+  @media (max-width: 500px) {
+    .title-1__large {
+      font-size: 40px; } }
+
+.title-2 {
+  color: #19191A;
+  font-family: "kanji";
+  font-size: 72px;
+  letter-spacing: -0.2px;
+  line-height: 1;
+  z-index: 10; }
+  @media (max-width: 600px) {
+    .title-2 {
+      font-size: 52px; } }
+
+.title-3 {
+  color: #19191A;
+  font-family: "kanji";
+  font-size: 46px;
+  letter-spacing: -0.2px;
+  line-height: 1;
+  z-index: 10; }
+
+.title-4 {
+  color: #19191A;
+  font-family: "kanji";
+  font-size: 30px;
+  letter-spacing: -0.2px;
+  line-height: 1;
+  z-index: 10; }
+
+.title-subheader {
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
+h3 {
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin: 0;
+  text-transform: uppercase; }
+
+a {
+  color: #0aa2c5;
+  transition: all 250ms ease; }
+  a:visited {
+    color: #0aa2c5; }
+  a:hover {
+    color: #40d3f5; }
