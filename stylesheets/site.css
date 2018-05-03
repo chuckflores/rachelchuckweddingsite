@@ -1483,7 +1483,7 @@ img.figlio {
 .registry-header h3 {
   display: none; }
 
-#hero {
+#top {
   margin-top: 90px;
   width: 100%;
   height: calc(100vh - 90px); }
